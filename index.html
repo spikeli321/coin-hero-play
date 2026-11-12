@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>推币英雄 原型</title>
+    <style>html,body{background:#0c0e16;height:100%;margin:0;overflow:hidden}body{justify-content:center;align-items:flex-start;display:flex}#stage{background:#1b2033;position:relative}#gl,#ui{display:block;position:absolute;top:0;left:0}#ui{touch-action:none;-webkit-user-select:none;user-select:none}</style>
+    <script type="module" crossorigin src="./assets/index-E6u-R6gP.js"></script>
+  </head>
+  <body>
+    <!-- 只有两个 canvas：gl 画 3D 推币台，ui 用 Canvas 2D 画战斗和界面。不依赖其他 DOM，方便以后搬到小游戏。 -->
+    <div id="stage">
+      <canvas id="gl"></canvas>
+      <canvas id="ui"></canvas>
+    </div>
+  </body>
+</html>
